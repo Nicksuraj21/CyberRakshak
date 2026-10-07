@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Cyber Rakshak IDS | Protecting Your Digital Future with Autonomous Edge AI</title>
+    <meta name="description" content="Cyber Rakshak IDS is an in-line gigabit cyber security hardware firewall powered by 84-feature Deep Packet Inspection and local XGBoost AI. Sub-0.12ms kernel mitigation with zero cloud dependency.">
+    
+    <!-- Modern Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/cyber_rakshak_brand.png">
+    
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Atmospheric Ambient Cyan/Blue Glow in Top-Right -->
+    <div class="ambient-glow-aura"></div>
+
+    <!-- ========================================================
+         TOP NAVIGATION BAR (Exact Match to User Design Reference)
+         ======================================================== -->
+    <header class="site-header" id="topNav">
+        <div class="container header-container">
+            <!-- Brand Logo -->
+            <a href="#hero" class="brand-link" aria-label="Cyber Rakshak Home">
+                <img src="assets/cyber_rakshak_brand.png" alt="Cyber Rakshak" class="brand-full-logo-img" onerror="this.src='https://lh3.googleusercontent.com/d/1mfm1QIVQ8yXiE9QZMVimhO6u6XgnABFr'">
+            </a>
+
+            <!-- Center Menu Links -->
+            <nav class="nav-menu-center">
+                <a href="#hero" class="nav-pill-link active">Home</a>
+                <a href="#services" class="nav-pill-link">Services</a>
+                <a href="#hardware" class="nav-pill-link">Hardware</a>
+                <a href="#interactive-lab" class="nav-pill-link">Threat Lab</a>
+                <a href="#pricing" class="nav-pill-link">Pricing</a>
+                <a href="#faq" class="nav-pill-link">FAQ</a>
+            </nav>
+
+            <!-- Right Actions: Explore Hardware CTA -->
+            <div class="header-right-actions">
+                <a href="#hardware" class="btn-clean-cta">
+                    Explore Device &rarr;
+                </a>
+                <button class="btn-mobile-hamburger" onclick="toggleMobileMenu()" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-backdrop" id="mobBackdrop" onclick="toggleMobileMenu(false)"></div>
+    <div class="mobile-menu-drawer" id="mobDrawer">
+        <div class="mob-head">
+            <div class="brand-link">
+                <img src="assets/cyber_rakshak_brand.png" alt="Cyber Rakshak" class="brand-full-logo-img mob-logo" onerror="this.src='https://lh3.googleusercontent.com/d/1mfm1QIVQ8yXiE9QZMVimhO6u6XgnABFr'">
+            </div>
+            <button class="btn-close-drawer" onclick="toggleMobileMenu(false)" aria-label="Close Menu"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="mob-links">
+            <div class="mob-group-title">NAVIGATION</div>
+            <a href="#hero" onclick="toggleMobileMenu(false)"><i class="fa-solid fa-house text-blue"></i> Home</a>
+            <a href="#services" onclick="toggleMobileMenu(false)"><i class="fa-solid fa-shield-halved text-blue"></i> Services</a>
+            <a href="#hardware" onclick="toggleMobileMenu(false)"><i class="fa-solid fa-microchip text-purple"></i> Hardware</a>
+            <a href="#interactive-lab" onclick="toggleMobileMenu(false)"><i class="fa-solid fa-flask text-green"></i> Threat Lab</a>
+            <a href="#pricing" onclick="toggleMobileMenu(false)"><i class="fa-solid fa-tag text-amber"></i> Pricing</a>
+            <a href="#faq" onclick="toggleMobileMenu(false)"><i class="fa-solid fa-circle-question text-muted"></i> FAQ</a>
+
+            <div style="margin-top: 18px; display: flex; flex-direction: column; gap: 10px;">
+                <a href="#hardware" onclick="toggleMobileMenu(false)" class="btn-clean-cta" style="width: 100%; justify-content: center; padding: 12px;">
+                    Explore Device &rarr;
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================================
+         HERO SECTION (Exact Match to User Reference Design)
+         ======================================================== -->
+    <section class="hero-stage-section" id="hero">
+        <!-- Animated Cyber Matrix Grid Background -->
+        <div class="hero-cyber-grid-overlay"></div>
+        
+        <div class="container">
+            
+            <!-- 2-Column Side-by-Side Hero Stage -->
+            <div class="hero-split-grid">
+                
+                <!-- Left Column: Copy, Actions & 4 Micro Cards -->
+                <div class="hero-left-col reveal-hero-left">
+                    
+                    <!-- Green Pill Badge -->
+                    <div class="hero-edge-badge">
+                        <span class="badge-dot-green"></span>
+                        <span class="badge-edge-text">EDGE-NATIVE SECURITY</span>
+                    </div>
+
+                    <!-- Main Headline -->
+                    <h1 class="hero-main-heading">
+                        Lightweight AI-Driven<br>
+                        <span class="hero-blue-text">Network Intrusion Detection</span><br>
+                        &amp; Prevention System
+                    </h1>
+
+                    <!-- Subtitle -->
+                    <p class="hero-main-sub">
+                        Protect your network at the edge with real-time AI-driven intrusion detection and automatic threat blocking.
+                    </p>
+
+                    <!-- Hero Action Buttons -->
+                    <div class="hero-main-btns">
+                        <a href="#hardware" class="btn-hero-primary-pill btn-magnetic">
+                            Explore Hardware &rarr;
+                        </a>
+                        <a href="#interactive-lab" class="btn-hero-demo-pill">
+                            Try Threat Lab &rarr;
+                        </a>
+                    </div>
+
+                    <!-- Row of 4 Feature Micro Cards -->
+                    <div class="hero-micro-row">
+                        
+                        <!-- Card 1: Real-time -->
+                        <div class="micro-stat-card">
+                            <div class="micro-icon text-blue">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div class="micro-txt">
+                                <div class="micro-head">Real-time</div>
+                                <div class="micro-desc">Threat Detection</div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Auto Block -->
+                        <div class="micro-stat-card">
+                            <div class="micro-icon text-blue">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <div class="micro-txt">
+                                <div class="micro-head">Auto Block</div>
+                                <div class="micro-desc">Zero-day Attacks</div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Edge Ready -->
+                        <div class="micro-stat-card">
+                            <div class="micro-icon text-blue">
+                                <i class="fa-solid fa-microchip"></i>
+                            </div>
+                            <div class="micro-txt">
+                                <div class="micro-head">Edge Ready</div>
+                                <div class="micro-desc">Raspberry Pi 4</div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: Lightweight -->
+                        <div class="micro-stat-card">
+                            <div class="micro-icon text-blue">
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <div class="micro-txt">
+                                <div class="micro-head">Lightweight</div>
+                                <div class="micro-desc">High Accuracy</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Column: 3D Hardware Showcase & Floating Glass Telemetry Card -->
+                <div class="hero-right-col reveal-hero-right">
+                    <div class="hero-showcase-stage" id="heroHardwareStage">
+                        
+                        <!-- Atmospheric Studio Halo & Cyber Ring -->
+                        <div class="stage-ambient-aura"></div>
+                        <div class="stage-cyber-ring"></div>
+                        
+                        <!-- Animated Radar Pulse Rings -->
+                        <div class="stage-radar-ring ring-1"></div>
+                        <div class="stage-radar-ring ring-2"></div>
+                        
+                        <!-- 3D Geometric Platform Pedestal -->
+                        <div class="stage-pedestal-platform">
+                            <div class="stage-pedestal-rim"></div>
+                            <div class="stage-pedestal-top"></div>
+                        </div>
+
+                        <!-- Floating Frosted Glass Live Telemetry Card (Exact Mockup Match) -->
+                        <div class="floating-telemetry-glass-card" id="heroMainGlassCard" data-parallax="0.035">
+                            <div class="glass-card-top">
+                                <div class="glass-card-title">
+                                    <div class="glass-shield-icon">
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                    </div>
+                                    <span class="glass-card-heading">Network Protected</span>
+                                </div>
+                                <span class="pill-live-tag">
+                                    <span class="live-pulse-dot"></span>
+                                    Live
+                                </span>
+                            </div>
+                            <div class="glass-wave-area">
+                                <svg viewBox="0 0 340 90" preserveAspectRatio="none" class="wave-chart-svg">
+                                    <defs>
+                                        <linearGradient id="waveFillGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="rgba(0, 102, 255, 0.32)" />
+                                            <stop offset="50%" stop-color="rgba(0, 200, 255, 0.12)" />
+                                            <stop offset="100%" stop-color="rgba(0, 102, 255, 0.0)" />
+                                        </linearGradient>
+                                        <linearGradient id="waveStrokeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" stop-color="#0066ff" />
+                                            <stop offset="45%" stop-color="#00c8ff" />
+                                            <stop offset="75%" stop-color="#0066ff" />
+                                            <stop offset="100%" stop-color="#00c8ff" />
+                                        </linearGradient>
+                                        <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+                                            <feGaussianBlur stdDeviation="2.5" result="blur" />
+                                            <feMerge>
+                                                <feMergeNode in="blur" />
+                                                <feMergeNode in="SourceGraphic" />
+                                            </feMerge>
+                                        </filter>
+                                    </defs>
+                                    
+                                    <!-- Subtle Grid Guidelines -->
+                                    <line x1="60" y1="28" x2="60" y2="90" stroke="rgba(0, 102, 255, 0.15)" stroke-dasharray="2 3" stroke-width="1" />
+                                    <line x1="125" y1="52" x2="125" y2="90" stroke="rgba(0, 102, 255, 0.15)" stroke-dasharray="2 3" stroke-width="1" />
+                                    <line x1="180" y1="18" x2="180" y2="90" stroke="rgba(0, 102, 255, 0.15)" stroke-dasharray="2 3" stroke-width="1" />
+                                    <line x1="245" y1="46" x2="245" y2="90" stroke="rgba(0, 102, 255, 0.15)" stroke-dasharray="2 3" stroke-width="1" />
+                                    <line x1="295" y1="24" x2="295" y2="90" stroke="rgba(0, 102, 255, 0.15)" stroke-dasharray="2 3" stroke-width="1" />
+
+                                    <!-- Wave Fill Area -->
+                                    <path d="M 0 60 C 30 60, 40 28, 60 28 C 85 28, 100 56, 125 52 C 150 48, 160 18, 180 18 C 205 18, 220 50, 245 46 C 270 42, 280 24, 295 24 C 315 24, 325 38, 340 32 L 340 90 L 0 90 Z" fill="url(#waveFillGrad)"></path>
+                                    
+                                    <!-- Wave Stroke with Glow -->
+                                    <path d="M 0 60 C 30 60, 40 28, 60 28 C 85 28, 100 56, 125 52 C 150 48, 160 18, 180 18 C 205 18, 220 50, 245 46 C 270 42, 280 24, 295 24 C 315 24, 325 38, 340 32" fill="none" stroke="url(#waveStrokeGrad)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#glowFilter)" class="wave-stroke-path"></path>
+                                    
+                                    <!-- Peak Telemetry Nodes -->
+                                    <circle cx="60" cy="28" r="4.5" fill="#0066ff" stroke="#ffffff" stroke-width="1.8" />
+                                    <circle cx="125" cy="52" r="3.5" fill="#00c8ff" stroke="#ffffff" stroke-width="1.5" />
+                                    <circle cx="180" cy="18" r="5" fill="#0066ff" stroke="#ffffff" stroke-width="2" />
+                                    <circle cx="245" cy="46" r="3.5" fill="#00c8ff" stroke="#ffffff" stroke-width="1.5" />
+                                    <circle cx="295" cy="24" r="4.5" fill="#00c8ff" stroke="#ffffff" stroke-width="1.8" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- Micro Floating Security Chips -->
+                        <div class="hero-float-chip chip-left" data-parallax="-0.03">
+                            <span class="chip-pulse-green"></span>
+                            <span>84-Feature DPI &bull; Active</span>
+                        </div>
+                        <div class="hero-float-chip chip-bottom" data-parallax="0.025">
+                            <i class="fa-solid fa-bolt text-blue"></i>
+                            <span>Sub-0.12ms In-Line Filter</span>
+                        </div>
+
+                        <!-- Device Contact Drop Shadow -->
+                        <div class="stage-device-shadow"></div>
+
+                        <!-- Cyber Rakshak Hardware Appliance Image -->
+                        <div class="stage-device-wrapper" id="heroDeviceWrapper">
+                            <img src="assets/cyber_rakshak_device.png" alt="Cyber Rakshak Autonomous AI Defense Hardware Appliance" class="stage-hardware-device-img">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Full-Width Bottom Stats Glass Banner (Interactive Count-Up Counters) -->
+            <div class="hero-bottom-stats-banner reveal-on-scroll">
+                
+                <!-- Stat 1: 98.2% Detection Accuracy -->
+                <div class="banner-stat-item">
+                    <div class="banner-icon-box icon-mint">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="banner-stat-content">
+                        <div class="banner-stat-val counter-stat" data-target="98.2" data-decimals="1" data-suffix="%">98.2%</div>
+                        <div class="banner-stat-lbl">Detection Accuracy</div>
+                    </div>
+                </div>
+
+                <div class="banner-divider"></div>
+
+                <!-- Stat 2: ~400ms Threat Block Time -->
+                <div class="banner-stat-item">
+                    <div class="banner-icon-box icon-electric">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div class="banner-stat-content">
+                        <div class="banner-stat-val counter-stat" data-target="400" data-prefix="~" data-suffix="ms">~400ms</div>
+                        <div class="banner-stat-lbl">Threat Block Time</div>
+                    </div>
+                </div>
+
+                <div class="banner-divider"></div>
+
+                <!-- Stat 3: 100 Mbps Line-Rate DPI -->
+                <div class="banner-stat-item">
+                    <div class="banner-icon-box icon-electric">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div class="banner-stat-content">
+                        <div class="banner-stat-val counter-stat" data-target="100" data-suffix=" Mbps">100 Mbps</div>
+                        <div class="banner-stat-lbl">Line-Rate DPI</div>
+                    </div>
+                </div>
+
+                <div class="banner-divider"></div>
+
+                <!-- Stat 4: Low Power Raspberry Pi 4 -->
+                <div class="banner-stat-item">
+                    <div class="banner-icon-box icon-electric">
+                        <i class="fa-solid fa-cube"></i>
+                    </div>
+                    <div class="banner-stat-content">
+                        <div class="banner-stat-val text-glow" data-text="Low Power">Low Power</div>
+                        <div class="banner-stat-lbl">Raspberry Pi 4</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- ========================================================
+         SECTION 1: "Our Best cyber security services"
+         ======================================================== -->
+    <section class="services-section" id="services">
+        <div class="container">
+            
+            <div class="section-title-wrap">
+                <h2 class="section-title-clean">Our Best cyber security services</h2>
+                <p class="section-desc-clean">
+                    Engineered by Cyber Rakshak to deliver enterprise-grade visibility, automated packet filtering, and zero-cloud privacy.
+                </p>
+            </div>
+
+            <!-- Features Icon Grid Asset from User (Optimized Size) -->
+            <div class="asset-center-card">
+                <img src="assets/features_icon_45affabe-aed8-4848-8291-a58893f74abd.jpg_v=1641816516.png" alt="Cyber Rakshak Security Capabilities Matrix" class="asset-img-features">
+            </div>
+
+            <div class="services-grid-6">
+                
+                <!-- Service 1: Active Protect -->
+                <div class="service-box-clean">
+                    <div class="service-icon-wrap">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>Active Protect &amp; DPI</h3>
+                    <p>84-feature deep packet inspection paired with local XGBoost AI inference. Blocks SQL injection, SYN floods, and brute force in sub-0.12ms.</p>
+                    <a href="#interactive-lab" class="service-learn-link">Explore Live Radar &rarr;</a>
+                </div>
+
+                <!-- Service 2: VqLAN Quarantine -->
+                <div class="service-box-clean">
+                    <div class="service-icon-wrap">
+                        <i class="fa-solid fa-shield-virus"></i>
+                    </div>
+                    <h3>Autonomous Quarantine</h3>
+                    <p>When an IoT node exceeds anomalous beacon frequencies, Cyber Rakshak injects dynamic ARP isolation to prevent lateral LAN traversal.</p>
+                    <a href="#segmentation" class="service-learn-link">View Micro-Segmentation &rarr;</a>
+                </div>
+
+                <!-- Service 3: Smart Traffic SQM -->
+                <div class="service-box-clean">
+                    <div class="service-icon-wrap">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    <h3>Smart Queue (SQM)</h3>
+                    <p>Cake / FQ-CoDel active queue management prevents bufferbloat. Prioritizes VoIP and gaming traffic over background cloud backups.</p>
+                    <a href="#traffic-mgmt" class="service-learn-link">View SQM Controls &rarr;</a>
+                </div>
+
+                <!-- Service 4: Zero-Trust Geofencing -->
+                <div class="service-box-clean">
+                    <div class="service-icon-wrap">
+                        <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                    <h3>Targeted Geofencing</h3>
+                    <p>Instantly drop unsolicited ingress from high-risk geopolitical ASN clusters without adding latency to everyday browsing.</p>
+                    <a href="#interactive-lab" class="service-learn-link">Check Threat Lab &rarr;</a>
+                </div>
+
+                <!-- Service 5: Sub-0.12ms IPTables Drop -->
+                <div class="service-box-clean">
+                    <div class="service-icon-wrap">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3>Kernel-Level Mitigation</h3>
+                    <p>Raw Linux socket parsing coupled with C-level eBPF packet filters drops offending IP addresses before reaching upper userland layers.</p>
+                    <a href="#hardware" class="service-learn-link">Inspect Hardware Engine &rarr;</a>
+                </div>
+
+                <!-- Service 6: Privacy by Design -->
+                <div class="service-box-clean">
+                    <div class="service-icon-wrap">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <h3>Zero-Cloud Privacy</h3>
+                    <p>100% of telemetry, logs, and AI inferences stay on the local device. No third-party data tracking or recurring monthly fees.</p>
+                    <a href="#pricing" class="service-learn-link">Review Lifetime Plans &rarr;</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========================================================
+         HARDWARE ARCHITECTURE STAGE
+         ======================================================== -->
+    <section class="hardware-section" id="hardware">
+        <div class="container">
+            
+            <div class="section-title-wrap">
+                <h2 class="section-title-clean">Fanless Aerospace Hardware Architecture</h2>
+                <p class="section-desc-clean">
+                    Precision-engineered for silent continuous 24/7 in-line threat interception with dual 2.5G Multi-Gigabit Ethernet.
+                </p>
+            </div>
+
+            <div class="hardware-stage-clean">
+                
+                <!-- Interactive Stage Display -->
+                <div class="hw-preview-box">
+                    <div class="hw-main-display">
+                        <img id="hwMainImg" src="assets/cyber_rakshak_device.png" alt="Cyber Rakshak Hardware Edge Appliance" class="asset-img-hardware-main">
+                        <span class="hw-badge-tag"><i class="fa-solid fa-shield-halved text-blue"></i> Dual Gigabit AI Hardware Core</span>
+                    </div>
+
+                    <!-- Hardware Feature Highlight Badges -->
+                    <div class="hw-highlights-row">
+                        <div class="hw-feature-chip">
+                            <i class="fa-solid fa-bolt text-blue"></i>
+                            <span>Sub-0.12ms In-Line Latency</span>
+                        </div>
+                        <div class="hw-feature-chip">
+                            <i class="fa-solid fa-ethernet text-green"></i>
+                            <span>Dual 2.5G Multi-Gigabit</span>
+                        </div>
+                        <div class="hw-feature-chip">
+                            <i class="fa-solid fa-wind text-purple"></i>
+                            <span>100% Fanless Passive Cooling</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hardware Specs Column -->
+                <div class="hw-specs-column">
+                    
+                    <div class="hw-spec-card">
+                        <div class="hw-spec-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <div class="hw-spec-text">
+                            <h4>Quad-Core 64-bit ARM Silicon</h4>
+                            <p>Equipped with onboard hardware cryptographic engine and dedicated packet acceleration co-processor for line-rate inspection.</p>
+                        </div>
+                    </div>
+
+                    <div class="hw-spec-card">
+                        <div class="hw-spec-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <div class="hw-spec-text">
+                            <h4>Dual 2.5 Gbps Ethernet Ports</h4>
+                            <p>WAN &amp; LAN auto-negotiation (10/100/1000/2500 Mbps) with zero packet drops under line-rate symmetric loads.</p>
+                        </div>
+                    </div>
+
+                    <div class="hw-spec-card">
+                        <div class="hw-spec-icon"><i class="fa-solid fa-wind"></i></div>
+                        <div class="hw-spec-text">
+                            <h4>Passive Heatsink Thermal Chassis</h4>
+                            <p>Precision-milled aerospace aluminum heatsink enclosure guarantees 100% silent zero-noise operation with optimal thermals.</p>
+                        </div>
+                    </div>
+
+                    <div class="hw-spec-card">
+                        <div class="hw-spec-icon"><i class="fa-solid fa-shield-heart"></i></div>
+                        <div class="hw-spec-text">
+                            <h4>Flexible Ownership &amp; Pricing</h4>
+                            <p>Choose between full ₹12,000 one-time hardware ownership with lifetime updates or a flexible ₹499/month security subscription.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Live Interactive In-Line Network Packet Journey Architecture -->
+            <div class="interactive-network-pipeline-container reveal-on-scroll">
+                <div class="pipeline-header">
+                    <div class="pipeline-title">
+                        <i class="fa-solid fa-diagram-project text-blue"></i>
+                        <span>Live In-Line Network Packet Flow &amp; AI Decision Journey</span>
+                    </div>
+                    <div class="pipeline-status">
+                        <span class="pulse-indicator-emerald"></span>
+                        <span class="font-mono">IN-LINE ACTIVE &bull; 100 Mbps LINE-RATE</span>
+                    </div>
+                </div>
+                
+                <!-- Autonomous AI Defense GIF Flow Showcase -->
+                <div class="pipeline-defense-visual-wrapper">
+                    <div class="pipeline-defense-visual-card">
+                        <div class="defense-badge-header">
+                            <span class="quad-tag-pill pill-blue"><i class="fa-solid fa-shield-halved"></i> Autonomous AI Defense Flow</span>
+                            <span class="defense-latency-tag"><i class="fa-solid fa-bolt text-blue"></i> Sub-0.12ms In-Line Processing</span>
+                        </div>
+                        <div class="defense-media-box">
+                            <img src="assets/cyber_rakshak_defense.gif" alt="Cyber Rakshak Autonomous AI Defense Flow Animation" class="asset-img-defense-banner" onerror="this.src='cyber_rakshak_defense.gif'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========================================================
+         WI-FI, WISP & FAILOVER ECOSYSTEM (Full-Width Feature Cards)
+         ======================================================== -->
+    <section class="services-section" id="wifi-wisp">
+        <div class="container">
+            
+            <div class="section-title-wrap">
+                <h2 class="section-title-clean">Wi-Fi &amp; WISP Failover Ecosystem</h2>
+                <p class="section-desc-clean">
+                    Comprehensive edge versatility whether protecting home gigabit fiber or traveling on public hotspots.
+                </p>
+            </div>
+
+            <div class="wifi-full-cards-stack">
+                
+                <!-- Card 1: Wi-Fi to Wi-Fi WISP -->
+                <div class="clean-feature-split-card">
+                    <div class="split-desc-body">
+                        <span class="quad-tag-pill pill-blue">WISP Gateway</span>
+                        <h3>Wi-Fi to Wi-Fi Tethering</h3>
+                        <p>
+                            Connect Cyber Rakshak to any untrusted public Wi-Fi network (hotel, airport, cafe, or coworking space) and broadcast an isolated, fully encrypted private wireless bubble for all your personal devices.
+                        </p>
+                        <ul class="split-bullet-list">
+                            <li><i class="fa-solid fa-circle-check text-blue"></i> Zero configuration required for connected laptops, tablets, and phones</li>
+                            <li><i class="fa-solid fa-circle-check text-blue"></i> Hardware-level NAT isolation shields endpoints from rogue local subnet scans</li>
+                            <li><i class="fa-solid fa-circle-check text-blue"></i> Captive portal pass-through with persistent WireGuard VPN tunnel back to HQ</li>
+                        </ul>
+                    </div>
+                    <div class="split-media-box">
+                        <img src="assets/Wifi_to_Wifi.jpg_v=1641816991.png" alt="Wi-Fi to Wi-Fi WISP Tethering Diagram" class="asset-img-diagram">
+                    </div>
+                </div>
+
+                <!-- Card 2: WAN Failover (GIF) -->
+                <div class="clean-feature-split-card reverse-split">
+                    <div class="split-media-box">
+                        <img src="assets/wifiwan_failover.gif_v=1641816933.png" alt="Dual-WAN Auto Failover Animation" class="asset-img-diagram">
+                    </div>
+                    <div class="split-desc-body">
+                        <span class="quad-tag-pill pill-green">Uninterrupted Uptime</span>
+                        <h3>Dual-WAN Auto Failover</h3>
+                        <p>
+                            Sub-second automated failover seamlessly switches traffic from your primary wired fiber/cable WAN to a secondary wireless or cellular uplink the instant packet loss or ISP degradation is detected.
+                        </p>
+                        <ul class="split-bullet-list">
+                            <li><i class="fa-solid fa-circle-check text-green"></i> Active health checks with sub-100ms ICMP jitter &amp; DNS heartbeats</li>
+                            <li><i class="fa-solid fa-circle-check text-green"></i> Zero VoIP call drops or gaming disconnects during link transition</li>
+                            <li><i class="fa-solid fa-circle-check text-green"></i> Automatic fallback to primary high-speed fiber when connection is restored</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 3: Wi-Fi Hotspot Mode -->
+                <div class="clean-feature-split-card">
+                    <div class="split-desc-body">
+                        <span class="quad-tag-pill pill-purple">Portable Defense</span>
+                        <h3>Encrypted Travel Router Mode</h3>
+                        <p>
+                            Turns any cellular USB modem dongle, tethered smartphone, or hotel Ethernet jack into a portable security gateway with hardware AES-256 encryption.
+                        </p>
+                        <ul class="split-bullet-list">
+                            <li><i class="fa-solid fa-circle-check text-purple"></i> Compact ultra-low power consumption for power-bank battery operation</li>
+                            <li><i class="fa-solid fa-circle-check text-purple"></i> Autonomous ad-blocking and telemetry pixel filtration on all endpoints</li>
+                            <li><i class="fa-solid fa-circle-check text-purple"></i> Instant site-to-site mesh VPN linkage back to corporate headquarters</li>
+                        </ul>
+                    </div>
+                    <div class="split-media-box">
+                        <img src="assets/Wifi_Hotspot.jpg_v=1641816995.png" alt="Wi-Fi Travel Hotspot Mode" class="asset-img-diagram">
+                    </div>
+                </div>
+
+                <!-- Card 4: Trusted LAN Segment -->
+                <div class="clean-feature-split-card reverse-split">
+                    <div class="split-media-box">
+                        <img src="assets/TrustedLAN.jpg_v=1641817097.png" alt="Trusted LAN Segment Protection" class="asset-img-diagram">
+                    </div>
+                    <div class="split-desc-body">
+                        <span class="quad-tag-pill pill-amber">Zero Trust LAN</span>
+                        <h3>Trusted LAN vs. Untrusted IoT Defense</h3>
+                        <p>
+                            Enforces strict physical and dynamic micro-segmentation between trusted enterprise workstations and vulnerable consumer smart appliances (IP cameras, smart plugs, printers, smart TVs).
+                        </p>
+                        <ul class="split-bullet-list">
+                            <li><i class="fa-solid fa-circle-check text-amber"></i> Prevents lateral traversal and malware propagation across local subnets</li>
+                            <li><i class="fa-solid fa-circle-check text-amber"></i> Continuous flow inspection drops unapproved internal port scans</li>
+                            <li><i class="fa-solid fa-circle-check text-amber"></i> Custom access control policies with 1-click device quarantine</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========================================================
+         NETWORK SEGMENTATION & AIR-GAP (VLAN ANIMATION + HOME/WORK)
+         ======================================================== -->
+    <section class="services-section" id="segmentation">
+        <div class="container">
+            
+            <div class="section-title-wrap">
+                <h2 class="section-title-clean">Dynamic Network Segmentation &amp; Air-Gap</h2>
+                <p class="section-desc-clean">
+                    Eliminate lateral movement risks by isolating untrusted IoT smart gadgets from critical enterprise assets.
+                </p>
+            </div>
+
+            <!-- Split Card 1: VLAN Animation GIF -->
+            <div class="clean-feature-split-card">
+                <div class="split-desc-body">
+                    <span class="quad-tag-pill pill-blue">VLAN Micro-Segmentation</span>
+                    <h3>Real-Time Policy Enforcement</h3>
+                    <p>
+                        Cyber Rakshak dynamically partitions network traffic into secure, isolated VLAN segments. Smart TVs, cameras, and gaming consoles cannot access your work laptops or confidential storage.
+                    </p>
+                    <ul class="split-bullet-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Automated client device classification</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Sub-millisecond lateral quarantine upon breach detection</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Full egress inspection for exfiltration attempts</li>
+                    </ul>
+                </div>
+                <div class="split-media-box">
+                    <img src="assets/Segmentation_anim_7c35d608-cc31-4da8-b002-d4b3aeb57d4c.gif_v=1642145518.png" alt="Dynamic VLAN Segmentation Animation" class="asset-img-portrait">
+                </div>
+            </div>
+
+            <!-- Split Card 2: Home vs Work Air-Gap -->
+            <div class="clean-feature-split-card reverse-split">
+                <div class="split-media-box">
+                    <img src="assets/home_work_3_1.png_v=1641816445.png" alt="Home vs Work Network Isolation Diagram" class="asset-img-diagram">
+                </div>
+                <div class="split-desc-body">
+                    <span class="quad-tag-pill pill-purple">Work From Home Security</span>
+                    <h3>Strict Home vs. Work Isolation</h3>
+                    <p>
+                        Working from home introduces risks from shared IoT devices. Cyber Rakshak creates a hardened digital air-gap between enterprise confidential documents and family home entertainment.
+                    </p>
+                    <ul class="split-bullet-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Dedicated corporate VPN tunnel routing</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Zero cross-talk between guest devices and work laptops</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Compliance-ready audit trails for enterprise SecOps</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- ========================================================
+         SMART TRAFFIC MANAGEMENT & SQM
+         ======================================================== -->
+    <section class="hardware-section" id="traffic-mgmt">
+        <div class="container">
+            
+            <div class="section-title-wrap">
+                <h2 class="section-title-clean">Smart Traffic Management &amp; SQM</h2>
+                <p class="section-desc-clean">
+                    Eliminate bufferbloat and latency spikes with enterprise-grade Smart Queue Management (SQM).
+                </p>
+            </div>
+
+            <div class="clean-feature-split-card">
+                <div class="split-desc-body">
+                    <span class="quad-tag-pill pill-green">Cake / FQ-CoDel SQM</span>
+                    <h3>Zero Latency Under Heavy Loads</h3>
+                    <p>
+                        When family members download massive 4K streams or cloud backups, ordinary routers suffer from severe bufferbloat. Cyber Rakshak's Smart Traffic Management automatically prioritizes time-sensitive voice, video, and gaming packets.
+                    </p>
+                    <ul class="split-bullet-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Eliminates ping spikes in competitive online gaming</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Smooth, jitter-free Zoom and Teams video conferencing</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Per-device bandwidth allocation and category rate limiting</li>
+                    </ul>
+                </div>
+                <div class="split-media-box">
+                    <img src="assets/SmartTrafficManagement_ef5508f0-dd1b-4507-ba54-321b45ee6e07.png_v=1641816630.png" alt="Smart Traffic Management and SQM Queuing" class="asset-img-diagram">
+                </div>
+            </div>
+
+            <!-- Live 3-Lane SQM Interactive Traffic Visualizer -->
+            <div class="interactive-sqm-traffic-lanes reveal-on-scroll">
+                <div class="sqm-header">
+                    <div class="sqm-title">
+                        <i class="fa-solid fa-sliders text-green"></i>
+                        <span>Live FQ-CoDel Active Queue Management Visualizer</span>
+                    </div>
+                    <div class="sqm-metrics-pill font-mono">
+                        <span>BUFFERBLOAT RATING: <strong class="text-green">A+ (0.4ms Jitter)</strong></span>
+                    </div>
+                </div>
+
+                <div class="sqm-lanes-container">
+                    <!-- Lane 1: Ultra High Priority (Gaming & Realtime VoIP) -->
+                    <div class="sqm-lane priority-lane">
+                        <div class="lane-tag">
+                            <i class="fa-solid fa-headset text-green"></i>
+                            <span>Priority Lane: VoIP / Gaming</span>
+                        </div>
+                        <div class="lane-track">
+                            <div class="stream-particle stream-green p-1"></div>
+                            <div class="stream-particle stream-green p-2"></div>
+                            <div class="stream-particle stream-green p-3"></div>
+                        </div>
+                        <div class="lane-stat font-mono text-green">&lt; 1ms Latency</div>
+                    </div>
+
+                    <!-- Lane 2: Balanced Bulk (Streaming & HTTPS) -->
+                    <div class="sqm-lane balanced-lane">
+                        <div class="lane-tag">
+                            <i class="fa-solid fa-film text-blue"></i>
+                            <span>Standard Lane: 4K Video / Web</span>
+                        </div>
+                        <div class="lane-track">
+                            <div class="stream-particle stream-blue p-1"></div>
+                            <div class="stream-particle stream-blue p-2"></div>
+                        </div>
+                        <div class="lane-stat font-mono text-blue">Fair Share Bandwidth</div>
+                    </div>
+
+                    <!-- Lane 3: Anomalous Ingress (SYN Floods / Scans - Throttled & Dropped) -->
+                    <div class="sqm-lane throttled-lane">
+                        <div class="lane-tag">
+                            <i class="fa-solid fa-ban text-ruby"></i>
+                            <span>Anomalous Burst: Floods / Scans</span>
+                        </div>
+                        <div class="lane-track">
+                            <div class="stream-particle stream-ruby p-drop"></div>
+                        </div>
+                        <div class="lane-stat font-mono text-ruby">Dropped in Kernel Ring</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========================================================
+         3 INSTALLATION MODES (HOW IT WORKS GIF)
+         ======================================================== -->
+    <section class="quad-grid-section" id="install-modes">
+        <div class="container">
+            
+            <div class="section-title-wrap">
+                <h2 class="section-title-clean">3 Flexible Deployment Modes</h2>
+                <p class="section-desc-clean">
+                    Deploy in under 5 minutes without changing your existing router or Wi-Fi mesh configuration.
+                </p>
+            </div>
+
+            <!-- How It Works Asset Diagram (Optimized Size) -->
+            <div class="asset-center-card" style="text-align: center; margin-bottom: 36px;">
+                <img src="assets/howitworks_4320x1920_7928fafe-a7b5-41dc-8dba-ad0bd9bd4f29.gif" alt="3 Installation Modes Diagram" class="asset-img-modes">
+            </div>
+
+            <div class="modes-tri-grid">
+                
+                <div class="mode-card-item">
+                    <div class="mode-badge-number">1</div>
+                    <h4>Router Mode</h4>
+                    <p>Cyber Rakshak acts as your primary high-performance gateway router, managing PPPoE/DHCP WAN, NAT, and local DHCP IP assignment with full hardware firewall filtering.</p>
+                </div>
+
+                <div class="mode-card-item">
+                    <div class="mode-badge-number">2</div>
+                    <h4>Bridge Mode (In-Line)</h4>
+                    <p>Placed transparently between your existing modem and router. Operates as an invisible layer-2 bridge with zero IP configuration required.</p>
+                </div>
+
+                <div class="mode-card-item">
+                    <div class="mode-badge-number">3</div>
+                    <h4>DHCP / Simple Mode</h4>
+                    <p>Plug into any open LAN port on your current router. Cyber Rakshak takes over ARP management to monitor and protect the entire network effortlessly.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- ========================================================
+         PRICING TIERS (INR - HARDWARE & SUBSCRIPTION)
+         ======================================================== -->
+    <section class="services-section" id="pricing">
+        <div class="container">
+            
+            <div class="section-title-wrap">
+                <h2 class="section-title-clean">Transparent Indian Pricing &amp; Plans</h2>
+                <p class="section-desc-clean">
+                    All prices in Indian Rupees (₹). Choose complete ₹12,000 one-time hardware ownership with zero monthly fees, or a flexible ₹499/month subscription.
+                </p>
+            </div>
+
+            <div class="pricing-cards-grid">
+                
+                <!-- Plan 1: Monthly Subscription -->
+                <div class="clean-price-card">
+                    <h3 class="plan-name">Monthly Security</h3>
+                    <p class="plan-sub">Ideal for smart homes, remote workers, and flexible cloud telemetry.</p>
+                    <div class="price-val-wrap">
+                        <span class="price-amount">₹499</span>
+                        <span class="price-period">/ Month</span>
+                    </div>
+                    <ul class="plan-features-list">
+                        <li><i class="fa-solid fa-check"></i> Real-time AI Deep Packet Inspection</li>
+                        <li><i class="fa-solid fa-check"></i> 84-Feature Threat Detection Engine</li>
+                        <li><i class="fa-solid fa-check"></i> Mobile iOS / Android App &amp; Dashboard</li>
+                        <li><i class="fa-solid fa-check"></i> Automatic Zero-Day Model Updates</li>
+                        <li><i class="fa-solid fa-check"></i> Flexible Billing &bull; Cancel Anytime</li>
+                    </ul>
+                    <a href="#faq" class="btn-plan-action" style="display: flex; align-items: center; justify-content: center; text-decoration: none;">Select Monthly Plan &rarr;</a>
+                </div>
+
+                <!-- Plan 2: Pro Hardware (Featured) -->
+                <div class="clean-price-card featured-plan">
+                    <span class="plan-popular-tag">MOST POPULAR &bull; BEST VALUE</span>
+                    <h3 class="plan-name">Hardware Edition</h3>
+                    <p class="plan-sub">Dedicated In-Line Edge AI Hardware Appliance with Lifetime Protection.</p>
+                    <div class="price-val-wrap">
+                        <span class="price-amount">₹12,000</span>
+                        <span class="price-period">/ One-time</span>
+                    </div>
+                    <ul class="plan-features-list">
+                        <li><i class="fa-solid fa-check"></i> Cyber Rakshak Hardware Appliance Included</li>
+                        <li><i class="fa-solid fa-check"></i> 2.5 Gbps Multi-Gigabit In-Line Ports</li>
+                        <li><i class="fa-solid fa-check"></i> Zero Recurring Fees &bull; Protect Forever</li>
+                        <li><i class="fa-solid fa-check"></i> Dynamic VLAN &amp; Smart SQM Engine</li>
+                        <li><i class="fa-solid fa-check"></i> 2-Year Full Hardware Warranty</li>
+                    </ul>
+                    <a href="#faq" class="btn-plan-action active-btn" style="display: flex; align-items: center; justify-content: center; text-decoration: none;">Order Hardware (₹12,000) &rarr;</a>
+                </div>
+
+                <!-- Plan 3: Enterprise -->
+                <div class="clean-price-card">
+                    <h3 class="plan-name">Enterprise PRO</h3>
+                    <p class="plan-sub">Engineered for branch offices, labs, and enterprise operations.</p>
+                    <div class="price-val-wrap">
+                        <span class="price-amount">₹29,999</span>
+                        <span class="price-period">/ One-time</span>
+                    </div>
+                    <ul class="plan-features-list">
+                        <li><i class="fa-solid fa-check"></i> 10 Gbps SFP+ Fiber In-Line Ports</li>
+                        <li><i class="fa-solid fa-check"></i> Enterprise SIEM / Syslog Integration</li>
+                        <li><i class="fa-solid fa-check"></i> Custom eBPF Kernel Rules Engine</li>
+                        <li><i class="fa-solid fa-check"></i> Unlimited Connected Endpoints</li>
+                        <li><i class="fa-solid fa-check"></i> 24/7 Dedicated SecOps Priority SLA</li>
+                    </ul>
+                    <a href="#faq" class="btn-plan-action" style="display: flex; align-items: center; justify-content: center; text-decoration: none;">Contact Enterprise Sales &rarr;</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========================================================
+         FAQ ACCORDION SECTION
+         ======================================================== -->
+    <section class="hardware-section" id="faq">
+        <div class="container">
+            
+            <div class="section-title-wrap">
+                <h2 class="section-title-clean">Frequently Asked Questions</h2>
+                <p class="section-desc-clean">
+                    Everything you need to know about Cyber Rakshak deployment, performance, and privacy.
+                </p>
+            </div>
+
+            <div class="faq-accordion-wrap">
+                
+                <div class="faq-item active">
+                    <button class="faq-question-btn" onclick="toggleFaq(this)">
+                        <span>Do I need to replace my existing Wi-Fi router or mesh system?</span>
+                        <i class="fa-solid fa-chevron-down faq-chevron-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. Cyber Rakshak connects directly between your ISP modem/ONT and your existing Wi-Fi router or mesh system in Transparent Bridge Mode. You keep your current Wi-Fi name (SSID), passwords, and all existing settings.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question-btn" onclick="toggleFaq(this)">
+                        <span>Does Cyber Rakshak slow down internet gaming or 4K streaming?</span>
+                        <i class="fa-solid fa-chevron-down faq-chevron-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. Cyber Rakshak features hardware-accelerated 2.5 Gbps Multi-Gigabit packet processing with sub-0.12ms kernel mitigation latency. Its built-in Cake / FQ-CoDel Smart Queue Management (SQM) actively eliminates bufferbloat and ping spikes.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question-btn" onclick="toggleFaq(this)">
+                        <span>Is my network data uploaded to the cloud?</span>
+                        <i class="fa-solid fa-chevron-down faq-chevron-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Never. Cyber Rakshak operates with strict zero-cloud dependency. 100% of deep packet inspection, AI classification, logs, and telemetry are executed locally on the hardware device itself.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question-btn" onclick="toggleFaq(this)">
+                        <span>What are the pricing and subscription options?</span>
+                        <i class="fa-solid fa-chevron-down faq-chevron-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Cyber Rakshak offers transparent options in Indian Rupees: You can own the dedicated Edge AI Hardware Appliance for a one-time price of ₹12,000 (with lifetime AI updates and zero recurring fees), or choose the flexible monthly security subscription at ₹499/month.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========================================================
+         FOOTER
+         ======================================================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid-clean">
+                <div>
+                    <div class="brand-link" style="margin-bottom: 12px; display: inline-block;">
+                        <img src="assets/cyber_rakshak_brand.png" alt="Cyber Rakshak" class="brand-full-logo-img" style="height: 60px; max-width: 300px;" onerror="this.src='https://lh3.googleusercontent.com/d/1mfm1QIVQ8yXiE9QZMVimhO6u6XgnABFr'">
+                    </div>
+                    <p style="font-size: 13px; color: var(--text-muted); line-height: 1.5; max-width: 260px;">
+                        Next-generation autonomous edge cyber defense with 84-feature deep packet inspection.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="footer-heading">Features</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Active Protect DPI</a></li>
+                        <li><a href="#segmentation">VLAN Segmentation</a></li>
+                        <li><a href="#traffic-mgmt">Smart Queue (SQM)</a></li>
+                        <li><a href="#wifi-wisp">WISP Travel Bubble</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-heading">Hardware</h4>
+                    <ul class="footer-links">
+                        <li><a href="#hardware">Silicon PCB Engine</a></li>
+                        <li><a href="#hardware">Dual 2.5G Ports</a></li>
+                        <li><a href="#install-modes">3 Deployment Modes</a></li>
+                        <li><a href="#pricing">Lifetime Pricing</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-heading">Product &amp; Tech</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Active Defense DPI</a></li>
+                        <li><a href="#interactive-lab">Interactive Threat Lab</a></li>
+                        <li><a href="#pricing">Pricing &amp; Editions</a></li>
+                        <li><a href="#faq">FAQ &amp; Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>&copy; 2026 Cyber Rakshak IDS Inc. All rights reserved. Zero-cloud privacy guarantee.</span>
+                <span>Protected by Cyber Rakshak Autonomous In-Line Shield v2.4</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Inline Script for Interactivity -->
+    <script>
+    // Mobile Menu Drawer
+
+    // Mobile Menu Drawer
+    function toggleMobileMenu(force) {
+        const drawer = document.getElementById('mobDrawer');
+        const backdrop = document.getElementById('mobBackdrop');
+        if (!drawer || !backdrop) return;
+        const isOpen = typeof force === 'boolean' ? force : !drawer.classList.contains('open');
+        if (isOpen) {
+            drawer.classList.add('open');
+            backdrop.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        } else {
+            drawer.classList.remove('open');
+            backdrop.classList.remove('open');
+            document.body.style.overflow = '';
+        }
+    }
+
+    // Hardware Media Switcher
+    window.setHwMedia = function(src, btn) {
+        document.querySelectorAll('.hw-thumb-btn').forEach(b => b.classList.remove('active'));
+        if (btn) btn.classList.add('active');
+        const img = document.getElementById('hwMainImg');
+        if (img) {
+            img.style.opacity = '0.3';
+            setTimeout(() => {
+                img.src = src;
+                img.style.opacity = '1';
+            }, 120);
+        }
+    };
+
+    // Scenario Tabs Switcher
+    window.switchScenario = function(id, btn) {
+        document.querySelectorAll('.scenario-tab-btn').forEach(b => b.classList.remove('active'));
+        if (btn) btn.classList.add('active');
+        document.querySelectorAll('.scenario-content-pane').forEach(p => p.classList.remove('active'));
+        const target = document.getElementById('pane-' + id);
+        if (target) target.classList.add('active');
+    };
+
+    // FAQ Accordion
+    function toggleFaq(btn) {
+        const item = btn.parentElement;
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isActive) item.classList.add('active');
+    }
+
+
+
+    </script>
+
+    <!-- External Interactive Showcase & Animation Engine -->
+    <script src="script.js"></script>
+</body>
+</html>
